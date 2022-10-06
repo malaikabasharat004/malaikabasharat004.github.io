@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="shortcut Icon" href="https://www.transparentpng.com/thumb/google-logo/google-logo-png-icon-free-download-SUF63j.png" type="image/x-icon">
+        <style>
+            body{
+                cursor: pointer;
+                font-size: 20px;
+                text-align: center;
+                display: flex;
+	            flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+
+            @media(max-width: 600px){
+                input[type=text]{
+                width: 90%;
+                }
+            }
+
+            input[type=text] :hover{
+                background-origin: #494F55;
+                outline-style: ridge;
+            }
+
+            #imag{
+              align-items: right;
+              justify-content: right;
+              margin-left: 1200px;
+              margin-top: 2vw;
+            }
+
+            #link1{            
+            margin-right: 2vw;
+            }
+
+            #link2{
+              margin-right: 2vw;
+            }
+
+            a{
+                font-family: product sans;
+                text-decoration: none;
+                color: #494F55;
+            }
+
+            span{
+                padding-top: 8%;
+                display: inline-block;
+                white-space: nowrap;
+                font-size: 85px;
+                font-weight: bold;
+                font-family: product sans;
+  
+            }
+
+            input[type=submit] {
+                width: 120px;
+                padding: 8px 8px;
+                margin-top: 10px ;
+                margin-right: 10px;
+                box-sizing: border-box;
+                border: 1px solid white;
+                color : #494F55;
+            }
+
+            #sub1{
+                align-items: center;
+            }
+
+            form{
+                align-items: center;
+                position: absolute;
+                margin: 20px;
+                margin-top: 270px;
+            }
+
+            @font-face {
+                font-family: 'Product Sans';
+                src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+            }
+
+            input[type=text] {
+                width: 40vw;
+                margin-top: 35%;
+                background-image: url('https://www.kindpng.com/picc/m/25-254017_transparent-fan-clipart-black-and-white-small-search.png');
+                background-repeat: no-repeat;
+                background-position: 12px 12px;
+                padding: 15px 20px 12px 50px;
+                background-size: 33px;
+                margin-bottom: 25px;
+                font-size: 17px;
+                box-sizing: border-box;
+                border-radius: 100px;
+                border: 1px solid #dedede;
+              }
+        </style>
+    </head>
+
+    <body>
+        <div id="imag">
+            <a href="googleImages.html" id="link1">Google Images</a>
+            <a href="googleAdvanceSearch.html" id="link2">Advanced Search</a><br>
+        </div>
+        <span style="color: #4285F4; -webkit-text-stroke-color: 1px solid #4285F4">G</span>
+        <span style="color: #EA4335; -webkit-text-stroke-color: 1px solid #EA4335" >o</span>
+        <span style="color: #FBBC05; -webkit-text-stroke-color: 1px solid#Fbbc05">o</span>
+        <span style="color: #4285F4; -webkit-text-stroke-color: 1px solid #4285F4">g</span>
+        <span style="color: #34A853; -webkit-text-stroke-color: 1px solid #34a853;">l</span>
+        <span style="color: #EA4335; -webkit-text-stroke-color: 1px solid #EA4335">e</span>
+            <br>
+        <form action="https://google.com/search">
+            <input type="text" name="q" placeholder="Search Google or type a url" ><br>
+            <input type="submit" value="Google Search" id="sub1">
+            <input type="submit" value="I'm Feeling lucky" data-ved="0ahUKEwja87r0nMvqAhWOmuAKHSbxAeIQnRsIDQ">
+        </form>
+    </body>
+</html>
